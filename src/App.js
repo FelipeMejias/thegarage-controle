@@ -10,7 +10,7 @@ import dente from './imagens/Dente_de_Alho.jpg'
 import morango from './imagens/Morango_Bundinha.jpg'
 import queixada from './imagens/Queixada_Pepper.jpg'
 import tomato from './imagens/Tomato_Tomate.jpg'
-  const imagens=[banana,cabeca,dente,morango,queixada,tomato]
+  const imagens=[null,banana,cabeca,dente,morango,queixada,tomato]
 function App() {
   const [lista,setLista]=useState([])
   useEffect(()=>{
